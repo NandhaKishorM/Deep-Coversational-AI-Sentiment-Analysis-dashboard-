@@ -58,7 +58,7 @@ python application.py -mf zoo:blender/blender_90M/model -t blended_skill_talk
 
 ## For dashboard
 ### Go to this link
-
+https://github.com/kishorkuttan/dashboard
 ![alt text](https://github.com/kishorkuttan/Deep-Coversational-AI-Sentiment-Analysis-dashboard-/blob/master/Screenshot%20from%202021-06-23%2002-32-46.png)
 ![alt text](https://github.com/kishorkuttan/Deep-Coversational-AI-Sentiment-Analysis-dashboard-/blob/master/Screenshot%20from%202021-06-23%2002-33-02.png)
 
