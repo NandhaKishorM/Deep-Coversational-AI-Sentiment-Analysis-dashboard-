@@ -56,6 +56,11 @@ python application.py -mf zoo:blender/blender_90M/model -t blended_skill_talk
 1. For each user there will be a unique id to seperate conversations. 
 2. Each connection will include one world, one AI agent and multiple users.
 
+## For dashboard
+### Go to this link
+
+![alt text](https://github.com/kishorkuttan/Deep-Coversational-AI-Sentiment-Analysis-dashboard-/blob/master/Screenshot%20from%202021-06-23%2002-32-46.png)
+![alt text](https://github.com/kishorkuttan/Deep-Coversational-AI-Sentiment-Analysis-dashboard-/blob/master/Screenshot%20from%202021-06-23%2002-33-02.png)
 
 
 
