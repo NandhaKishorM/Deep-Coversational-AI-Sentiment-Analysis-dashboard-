@@ -27,14 +27,6 @@ In ParlAI, we call an environment a world. In each world, there are agents. Exam
 
 To concretize this, we’ll consider the train loop used to train a Image Seq2Seq model trained on all DodecaDialogue tasks and fine-tuned on the Empathetic Dialogue task, We call this train environment a world, and it contains two agents - the seq2seq model and the dataset. The model and dataset agents interact with each other in this way: the dataset acts first and outputs a batch of train examples with the correct labels. The model observes this act to get the train examples, and then acts by doing a single train step on this batch (predicting labels and updating its parameters according to the loss). The dataset observes this act and outputs the next batch, and so on.
 
-**CORTX S3 support for ParlAI fine tuning**
-
-1. During training the latest models get uploaded to the CORTX S3. Which can be downloaded from the bucket for Flask RESTful API integration or web app depolyment.
-2. This strategy helps in different versions of trained model for custom datasets withoud worrying the larger model size(>4GB)
-
-# RUN
-
-I just used private virtual lab through CloudShare with **Windows Server 2019 Standard** as the system.(https://github.com/Seagate/cortx/wiki/CORTX-Cloudshare-Setup-for-April-Hackathon-2021). You can also Use standard QUICK_START guide for installation.(https://github.com/Seagate/cortx/blob/main/QUICK_START.md)
 
 **Installation setup**
 
