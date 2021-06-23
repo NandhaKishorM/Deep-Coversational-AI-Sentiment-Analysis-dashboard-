@@ -33,11 +33,11 @@ To concretize this, we’ll consider the train loop used to train a Image Seq2Se
 1. Install anaconda python. (https://anaconda.org/)
 2. create a conda environment
 ``` 
-conda create -n cortx pip python=3.7
+conda create -n convai pip python=3.7
 ```
 3. activate the environment
 ``` 
-conda activate cortx
+conda activate convai
 ```
 4. Install the requirements
 ``` 
